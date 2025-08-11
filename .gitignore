@@ -1,0 +1,40 @@
+# Binaries
+/app
+app
+out/
+build/
+bin/
+
+# Dependency directories
+vendor/
+
+# Go build cache
+*.test
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+
+# Environment variables & secrets
+.env
+.env.*
+*.envrc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# Test artifacts
+coverage.out
+
+test.db
+telegram-bot
